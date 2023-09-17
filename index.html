@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;margin: 0;box-sizing: border-box;
+        }
+        #main{
+            width: 100%;
+            height: 100vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            background-color: rgb(59, 59, 196);
+        }
+        .top{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(195, 64, 86);
+        }
+        .top>p{
+            font-size:3rem ; color:#fff; font-weight: bold;
+        }
+        .down{
+            width: 100%;
+            height: 230vh;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(59, 59, 196);
+            position: relative;
+            >.line{
+                width: 3px;
+                height: 100%;
+                display: flex;
+                background-color: aliceblue;
+                margin-top: 50px;
+            }
+            >.online{
+                width: 3px;
+                background-color: rgb(195, 64, 86);
+                position: absolute;
+                left: 49.9%;
+                top: 50px;
+            }
+        }
+        .box{
+            transition: .6s;
+        }
+        .dot{
+            transition: .6s;
+        }
+        .box1{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(195, 64, 86);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:0 5px;
+            position: absolute;
+            top: 150px;
+            left: 155%;
+            >p{
+                font-size: 20px; text-align:left;
+            }
+        }
+        .dot1{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: aliceblue;
+            position: absolute;
+            top: 320px;
+            left: 48%;
+        }
+        .box2{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(195, 64, 86);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:0 5px;
+            position: absolute;
+            top: 450px;
+            left: -121%;
+            >p{
+                font-size: 20px; text-align:left;
+            }
+        }
+        .dot2{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: aliceblue;
+            position: absolute;
+            top: 630px;
+            left: 48%;
+        }
+        .box3{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(195, 64, 86);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:0 5px;
+            position: absolute;
+            top: 750px;
+            left: 155%;
+            >p{
+                font-size: 20px; text-align:left;
+            }
+        }
+        .dot3{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: aliceblue;
+            position: absolute;
+            top: 930px;
+            left: 48%;
+        }
+        .box4{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(195, 64, 86);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:0 5px;
+            position: absolute;
+            top: 1050px;
+            left: -121%;
+            >p{
+                font-size: 20px; text-align:left;
+            }
+        }
+        .dot4{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: aliceblue;
+            position: absolute;
+            top: 1230px;
+            left: 48%;
+        }
+        .box5{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(195, 64, 86);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:0 5px;
+            position: absolute;
+            top: 1500px;
+            left: 155%;
+            >p{
+                font-size: 20px; text-align:left;
+            }
+        }
+        .dot5{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: aliceblue;
+            position: absolute;
+            top: 1530px;
+            left: 48%;
+        }
+    </style>
+</head>
+<body>
+    <main id="main">
+        <div class="top">
+            <p>Vertical Timeline ⬇</p>
+        </div>
+        <div class="down">
+            <span class="line"></span>
+            <span class="online"></span>
+            <div class="box box1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae vel ad eum maxime libero hic nam voluptates assumenda itaque quasi in cumque culpa porro nemo, nobis, officiis molestias iure.</p>
+            </div>
+            <span class="dot dot1"></span>
+            <div class="box box2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae vel ad eum maxime libero hic nam voluptates assumenda itaque quasi in cumque culpa porro nemo, nobis, officiis molestias iure.</p>
+            </div>
+            <span class="dot dot2"></span>
+            <div class="box box3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae vel ad eum maxime libero hic nam voluptates assumenda itaque quasi in cumque culpa porro nemo, nobis, officiis molestias iure.</p>
+            </div>
+            <span class="dot dot3"></span>
+            <div class="box box4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae vel ad eum maxime libero hic nam voluptates assumenda itaque quasi in cumque culpa porro nemo, nobis, officiis molestias iure.</p>
+            </div>
+            <span class="dot dot4"></span>
+            <div class="box box5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae vel ad eum maxime libero hic nam voluptates assumenda itaque quasi in cumque culpa porro nemo, nobis, officiis molestias iure.</p>
+            </div>
+            <span class="dot dot5"></span>
+        </div>
+    </main>
+</body>
+<script>
+    document.getElementById('main').addEventListener('scroll',(e)=>{
+        let _st = e.target.scrollTop
+        document.getElementsByClassName('online')[0].style.height=(_st-100)+'px'
+        console.log(_st);
+        if (_st >= 350){
+            document.getElementsByClassName('box1')[0].style.left = '55%'
+            document.getElementsByClassName('box1')[0].nextElementSibling.style.backgroundColor='rgb(195, 64, 86)'
+        }else{
+            document.getElementsByClassName('box1')[0].style.left = '155%'
+            document.getElementsByClassName('box1')[0].nextElementSibling.style.backgroundColor='white'
+        }
+        if (_st >= 650){
+            document.getElementsByClassName('box2')[0].style.left = '21%'
+            document.getElementsByClassName('box2')[0].nextElementSibling.style.backgroundColor='rgb(195, 64, 86)'
+        }else{
+            document.getElementsByClassName('box2')[0].style.left = '-121%'
+            document.getElementsByClassName('box2')[0].nextElementSibling.style.backgroundColor='white'
+        }
+        if (_st >= 950){
+            document.getElementsByClassName('box3')[0].style.left = '55%'
+            document.getElementsByClassName('box3')[0].nextElementSibling.style.backgroundColor='rgb(195, 64, 86)'
+        }else{
+            document.getElementsByClassName('box3')[0].style.left = '155%'
+            document.getElementsByClassName('box3')[0].nextElementSibling.style.backgroundColor='white'
+        }
+        if (_st >= 1250){
+            document.getElementsByClassName('box4')[0].style.left = '21%'
+            document.getElementsByClassName('box4')[0].nextElementSibling.style.backgroundColor='rgb(195, 64, 86)'
+        }else{
+            document.getElementsByClassName('box4')[0].style.left = '-121%'
+            document.getElementsByClassName('box4')[0].nextElementSibling.style.backgroundColor='white'
+        }
+        if (_st >= 1550){
+            document.getElementsByClassName('box5')[0].style.left = '55%'
+            document.getElementsByClassName('box5')[0].nextElementSibling.style.backgroundColor='rgb(195, 64, 86)'
+        }else{
+            document.getElementsByClassName('box5')[0].style.left = '155%'
+            document.getElementsByClassName('box5')[0].nextElementSibling.style.backgroundColor='white'
+        }
+    })
+</script>
+</html>
